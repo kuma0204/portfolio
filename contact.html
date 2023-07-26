@@ -10,7 +10,7 @@
   <body>
             <nav class="navbar navbar-expand-sm">
                 <div class="container-fluid">
-                    <img src="images/logo.png" alt="logo"  href="index.html">
+                    <a href="index.html"> <img src="images/logo.png" alt="logo" id="logo"> </a>
                     <!-- <a  class="navbar-brand" href="#"></a> -->
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
@@ -32,9 +32,24 @@
                         </div>
                 </div>
             </nav>
+            <hr>
             <h1>Contact</h1>
 
-
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Name</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
 
 
 
