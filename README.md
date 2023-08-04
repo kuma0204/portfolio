@@ -1,1 +1,3 @@
 # portfolio
+*Tell us about your process, challenges you faced during development and how you overcame those changes. What have you learned by creating your web portfolio?*
+**creating my web portfolio has been a challenging journey which alowed me to showcase my skills and creativity. Coming up with a creative idea which i would be able to code was one challenge i faced in the very start of this portofolio designing. However, using bootstrap helped me to have a drop down navigation which i wasnt able to achive in my midterm with css. I've learnt that bootstrap is all about adding the correct classes. and its easier and convient than css. personally had a hard time understanding how the grid works in bootsrap but research helped me overcame the struggle**
