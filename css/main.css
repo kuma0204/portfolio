@@ -1,5 +1,4 @@
 .bg-primary{
-    /* background-color: #F9FBF2 !important; */
     background-image: linear-gradient( #b2c7e8,#703D57);
     height: auto;
     width: auto;
@@ -9,9 +8,13 @@
     background-color: #888098 !important;
     border: #703D57 !important;
 }
+.bg-light{
+    background-color: #aca0ae !important;
+}
 .text-info{
     color: #532d41 !important;
 }
+/* fonts */
 body{
     font-family: 'Rubik', sans-serif !important;
 }
@@ -21,6 +24,7 @@ h2{
 h1{
     font-family: 'Grenze Gotisch', cursive !important;
 }
+/* animation */
 .rotate {
     animation-name: rotate;
     animation-duration: 3s;

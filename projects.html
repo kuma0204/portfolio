@@ -13,19 +13,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Righteous&family=Rubik&display=swap" rel="stylesheet">
   </head>
   <body class="bg-primary">
-            <nav class="navbar navbar-expand-sm">
+            <nav class="navbar navbar-expand-sm nav-underline">
                 <div class="container-fluid">
                         <a href="index.html"> <img src="images/logo.png" alt="logo" id="logo" class="rotate"> </a>
-                    
-                    <!-- <img src="images/logo.png" alt="logo"  href="index.html"> -->
-                    <!-- <a  class="navbar-brand" href="#"></a> -->
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-
-                        <div class="navbar-collapse collapse" id="main-nav">
-                            <ul class="navbar-nav">
+                            <!-- navigation -->
+                    <div class="navbar-collapse collapse" id="main-nav" role="navigation">
+                            <ul class="navbar-nav" role="list">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="projects.html">Projects</a>
                                 </li>
@@ -36,30 +36,31 @@
                                     <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="https://kuma0204.myportfolio.com/">portfolio</a>
+                                    <a class="nav-link" href="https://kuma0204.myportfolio.com/">Portfolio</a>
                                 </li>
                             </ul>
-                        </div>
+                    </div>
                 </div>
             </nav>
             <hr>
             <h2 class=" text-center display-3 animate__bounce animate__delay-1s" id="projects">Projects</h2>
+            <!-- adds cards -->
+            <br>
+        <div class="container-fluid row row-cols-4-expand-md gap-2">
+                <div class="card container text-center col-3 col-md-3 " style="width: 300px; height: 595px;">
+                    <img srcset="images/web-design-221_x_240.png 480w,
+                                images/web-design-440_x_476.png 768w"
+                            sizes="100vw" 
+                            aria-details="banner" alt="my self"
+                            src="images/web-design.png " class="img-fluid">
+                    <div class="card-body">
 
-            <div class="container-fluid row row-cols-4-expand-md gap-1">
-            <div class="card container text-center col-md-3 " style="width: 350px; height: max-content;">
-                <img srcset="images/web-design-221_x_240.png 480w,
-                            images/web-design-440_x_476.png 768w"
-                        sizes="100vw" 
-                        aria-details="banner" alt="my self"
-                        src="images/web-design.png " class="img-fluid">
-                <div class="card-body">
-
-                  <h5 class="card-title h2">Web designs</h5>
-                  <p class="card-text">Here are some of the web design projects I have worked on, showcasing my skills and creativity in crafting visually appealing and user-friendly websites.</p>
-                  <a href="https://kuma0204.github.io/midterm/" class="btn btn-dark">View</a>
+                    <h5 class="card-title h2">Web designs</h5>
+                    <p class="card-text">Here are some of the web design projects I have worked on, showcasing my skills and creativity in crafting visually appealing and user-friendly websites.</p>
+                    <a href="https://kuma0204.github.io/midterm/" class="btn btn-dark">View</a>
+                    </div>
                 </div>
-              </div>
-            <div class="card container text-center col-md-3" style="width:350px; height: max-content;">
+            <div class="card container text-center col-3 col-md-3" style="width:300px; height: 595px;">
                 <img src="images/responsive_web.png"
                 srcset="images/responsive-web-247_x_240.png 480w,
                         images/responsive_web-480_x_520.png 768w"
@@ -73,21 +74,25 @@
                 </div>
               </div>
               <br>
-            <div class="card container text-center col-md-3" style="width: 350px; height: max-content;">
-                <img src="images/illustrations.png"
+            <div class="card container text-center col-3 col-md-3" style="width: 300px; height: 595px;">
+                <img src="images/illustrationss.png"
                 srcset="images/illustrations-241_x_240.png 480w,
                         images/illustrationss-480_x_400.png 768w"
                         sizes="100vw" aria-details="banner"
                 class="card-img-top img-fluid " alt="website">
+                <br>
+                <br>
+                <br>
                 <div class="card-body">
                   <h5 class="card-title h3">Illustrations</h5>
                   <p class="card-text">My illustrations aim to engage and resonate with viewers.</p>
-                  <a href="images/illustrations.png" class="btn btn-dark">illustration 01</a>
+                  <a href="images/illustrationss.png" class="btn btn-dark mb-2">illustration 01</a>
+                  
                   <a href="images/logo-creations.png" class="btn btn-dark">illustrations 02</a>
                 </div>
               </div>
               <br>
-              <div class="card container text-center col-md-3" style="width: 350px; height: max-content;">
+              <div class="card container text-center col-3 col-md-3" style="width: 300px; height: 595px;">
                 <img src="images/movie-poster.png"
                 srcset="images/movie-poster-157_x_240.png 480w,
                         images/movie-poster-480_x_540.png 768w"
@@ -96,19 +101,17 @@
                 <div class="card-body">
                   <h5 class="card-title h3">Movie poster</h5>
                   <p class="card-text">This is a showcase of my creative journey with Adobe Photoshop. As a passionate digital artist and graphic designer.</p>
-                  <a href="images/movie-poster.png" class="btn btn-dark">view</a>
+                  <a href="images/movie-poster.png" class="btn btn-dark">View</a>
                   
                 </div>
-              </div>
-             </div>
-              <br>
-            <div class="text-center">
-              <a href="#projects" class="skip bg-light text-dark text-decoration-none p-2">Back to top<i class="fa-solid fa-arrow-up"></i></a>
             </div>
+        </div>
+                <br>
+                <div class="text-center p-2">
+                     <a href="#projects" class="skip bg-light text-dark text-decoration-none p-2">Back to top<i class="fa-solid fa-arrow-up"></i></a>
+                </div>
 
-
-
-              <footer class="text-center text-white" style="background-color: #f1f1f1;">
+            <footer class="text-center text-white" style="background-color: #f1f1f1;">
                 <!-- Grid container -->
                 <div class="container pt-4">
                   <!-- Section: Social media -->
@@ -140,13 +143,13 @@
                   </section>
                   <!-- Section: Social media -->
                 </div>
-                <!-- Grid container -->
+               
                 <!-- Copyright -->
                 <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                  © 2023 Copyright:SK
+                    &copy;2023 Copyright:SK
                 </div>
                 <!-- Copyright -->
-              </footer>
+            </footer>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
         </body>
       </html>

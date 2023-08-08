@@ -12,17 +12,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Righteous&family=Rubik&display=swap" rel="stylesheet">
   </head>
   <body class="bg-primary">
-            <nav class="navbar navbar-expand-sm">
+            <nav class="navbar navbar-expand-sm nav-underline" role="navigation">
                 <div class="container-fluid">
                     <a href="index.html"> <img src="images/logo.png" alt="logo" id="logo" class="rotate"> </a>
-                    <!-- <a  class="navbar-brand" href="#"></a> -->
 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" role="button">
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
                         <div class="navbar-collapse collapse" id="main-nav">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav" role="list">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="projects.html">Projects</a>
                                 </li>
@@ -33,7 +35,7 @@
                                     <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="https://kuma0204.myportfolio.com/">portfolio</a>
+                                    <a class="nav-link" href="https://kuma0204.myportfolio.com/">Portfolio</a>
                                 </li>
                             </ul>
                         </div>
@@ -41,67 +43,30 @@
             </nav>
             <hr>
             <h2 class="text-center display-3">About Me</h2>
-            <!-- <div class="container">
-                <div class="">
-                    <img src="images/self-img.jpg" 
-                        srcset="images/self-img-221_x_280.png 480w,
-                                images/self-img-340_x_429.png 768w, "
-                                sizes="(max-width:960px)"
-                    alt="" role="img" class="img-fluid rounded-circle" aria-details="picture">
+                <div class=" container text-center">
+                    <img srcset="images/self-img-221_x_280.png 576w,
+                                images/self-img-340_x_429.png 768w,
+                                images/self-img-640_x_809.png 1200w"
+                            sizes="100vw" 
+                            aria-details="banner" alt="my self"
+                            src="images/self-img.jpg " class="img-fluid rounded-circle" width="250" role="img">
                 </div>
-            </div> -->
-            <!-- <div class="container">
-                <picture>
-                
-                  <source
-                    media="(max-width: sm)"
-                    srcset="self mg-221_x_280.jpg"
-                    sizes="100vw"
-                  />
-                   
-                   <source
-                   media="(max-width: md)"
-                   srcset="self mg-340_x_429.png"
-                   sizes="100vw"
-                 />
-                  
-                  <source
-                    media="(max-width: lg)"
-                    srcset="self mg-640_x_809.png"
-                    sizes="100vw"
-                  />
-                  
-                  <img
-                    src="images/self mg.jpg"
-                    alt="Responsive Image"
-                    class="img-fluid rounded-circle" width="250px"
-                  />
-                </picture>
-              </div> -->
-            <div class=" container text-center">
-                <img srcset="images/self-img-221_x_280.png 576w,
-                            images/self-img-340_x_429.png 768w,
-                            images/self-img-640_x_809.png 1200w"
-                        sizes="100vw" 
-                        aria-details="banner" alt="my self"
-                        src="images/self-img.jpg " class="img-fluid rounded-circle" width="250px">
-            </div>
-            <p class="text-center text-white">
-                I'm a developer and Designer bases in Ottawa. I sketch wireframes and make  prototypes, and illustrates logos and animations.Check out some of my work in the Projects section.
-            </p>
-            <p class="text-center text-white">
-                My diverse skill set allows us to handle projects of any size or complexity, ensuring that i can meet the unique requirements of each client. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
-            </p>
-            <ul class="text-center list-unstyled" role="list" itemscope itemtype="https://schema.org/Person" > <strong>
-                <li role="listitem">(613)700 3527 </li>
-                <li role="listitem">senukiperera2002@gmail.com<link rel="stylesheet" href="senukiperera2002@gmail.com"></li>
-            </strong>
-            </ul>
-            <!-- adds Accessibility schema to the clips -->
+                <p class="text-center text-white">
+                    I'm a developer and Designer bases in Ottawa. I sketch wireframes and make  prototypes, and illustrates logos and animations.Check out some of my work in the Projects section.
+                </p>
+                <p class="text-center text-white">
+                    My diverse skill set allows us to handle projects of any size or complexity, ensuring that i can meet the unique requirements of each client. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+                </p>
+                 <ul class="text-center list-unstyled fw-bold" role="list" itemscope itemtype="https://schema.org/Person" >
+                </ul>
+                <div class="text-center">
+                    <a href="mailto:senukiperera2002@gmail.com" class=" text-decoration-none text-dark text-center fw-bold cursor-pointer "><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <br>
+            <!-- adds Accessibility schema  -->
 
+            <footer class="text-center text-white " style="background-color: #f1f1f1;" role="contentinfo">
 
-            <footer class="text-center text-white " style="background-color: #f1f1f1;">
-                <!-- Grid container -->
                 <div class="container pt-4">
                   <!-- Section: Social media -->
                   <section class="mb-4">
@@ -133,15 +98,14 @@
                   </section>
                   <!-- Section: Social media -->
                 </div>
-                <!-- Grid container -->
               
                 <!-- Copyright -->
                 <div class="text-center text-dark " style="background-color: rgba(0, 0, 0, 0.2);">
-                  © 2023 Copyright:SK
-                  <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                    &copy;2023 Copyright:SK
+                  <a class="text-dark"></a>
                 </div>
                 <!-- Copyright -->
-              </footer>
+            </footer>
 
 
 
