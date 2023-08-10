@@ -3,9 +3,9 @@
     height: auto;
     width: auto;
 }
-
+/* changes color by adding impotant to bs */
 .btn-primary{
-    background-color: #888098 !important;
+    background-color: #77728b !important;
     border: #703D57 !important;
 }
 .bg-light{
@@ -13,6 +13,12 @@
 }
 .text-info{
     color: #532d41 !important;
+}
+.bg-warning{
+    background-color:#f1f1f1 !important;
+}
+.bg-dark{
+    background-color:  rgba(0, 0, 0, 0.2) !important;
 }
 /* fonts */
 body{
