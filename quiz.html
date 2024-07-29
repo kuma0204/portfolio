@@ -40,71 +40,55 @@
                 </div>
         </nav>
             <hr>
-        <h2 class=" text-center display-3 animate__bounce animate__delay-1s" id="projects">Projects</h2>
+        <h2 class=" text-center display-3 animate__bounce animate__delay-1s" id="projects">Quiz</h2>
             <!-- adds cards -->
             <br>
-        <div class="container-fluid row row-cols-4-expand-md gap-2">
-                <div class="cards container text-center col-3 col-md-3 " style="width: 300px; height: 450px;">
-                    <img srcset="images/web-design.jpg 480w,
-                                images/web-design.jpg  768w"
-                            sizes="100vw" 
-                            aria-details="banner" alt="wed designs"
-                            src="images/web-design.png " class="img-fluid">
-                    <div class="card-body">
+             <div class="container">
+  <div class="image-grid row">
+    <div class="col-md-4 col-sm-6 mb-4">
+      <img src="images/quiz1.png" alt="Quiz Image 1" width="300" height="300">
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+        <img src="images/quiz2.png" alt="Quiz Image 1" width="300" height="300">
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4" id="lastimg">
+        <img src="images/quiz1.png" alt="Quiz Image 1" width="300" height="300">
+    </div>
+  </div>
+            <div class="container">
+                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+                <h2>Features</h2>
+                    <ul class="feature-list">
+                        <li><strong>Dynamic Questions and Answers:</strong> Questions and answers are fetched from a third-partyAPI. The quiz updates in real-time, providing a new set of questions each time a user plays.</li>
 
-                    <h5 class="card-title h2">Web designs</h5>
-                    <p class="card-text">Here are some of the web design projects I have worked on, showcasing my skills and creativity in crafting visually appealing and user-friendly websites.</p>
-                    <a href="Webdev.html" class="btn btn-dark">View more</a>
-                    </div>
-                </div>
-            <div class="cards container text-center col-3 col-md-3" style="width:300px; height: 450px;">
-                <img src="images/webdev.jpg"
-                srcset="images/webdev.jpg 480w,
-                        images/webdev.jpg 768w"
-                        sizes="100vw" aria-details="banner"
-                class="card-img-top img-fluid" alt="website">
-                <div class="card-body">
-                  <h5 class="card-title h3">UX/UI designs</h5>
-                  <p class="card-text">As a web developer, I craft visually stunning and user-friendly websites that seamlessly adapt to different screen sizes, ensuring an optimal experience for users.</p>
-                  <a href="design.html" class="btn btn-dark">View More</a>
-                </div>
-              </div>
-              <br>
-            <div class="cards container text-center col-3 col-md-3" style="width: 300px; height: 450px;">
-                <img src="images/photography.jpg"
-                srcset="images/photography.jpg 480w,
-                        images/photography.jpg 768w"
-                        sizes="100vw" aria-details="banner"
-                class="card-img-top img-fluid " alt="art">
-                <br>
-                <br>
-                <br>
-                <div class="card-body">
-                  <h5 class="card-title h3">Illustrations</h5>
-                  <p class="card-text">My illustrations aim to engage and resonate with viewers.</p>
-                  <a href="images/illustrationss.png" class="btn btn-dark mb-2">illustration 01</a>
-                  
-                  <a href="images/logo-creations.png" class="btn btn-dark">illustrations 02</a>
-                </div>
-              </div>
-              <br>
-              <!-- <div class="card container text-center col-3 col-md-3" style="width: 300px; height: 595px;">
-                <img src="images/movie-poster.png"
-                srcset="images/movie-poster-157_x_240.png 480w,
-                        images/movie-poster-480_x_540.png 768w"
-                        sizes="100vw" aria-details="banner"
-                class="card-img-top img-fluid " alt="photoshop">
-                <div class="card-body">
-                  <h5 class="card-title h3">Movie poster</h5>
-                  <p class="card-text">This is a showcase of my creative journey with Adobe Photoshop. As a passionate digital artist and graphic designer.</p>
-                  <a href="images/movie-poster.png" class="btn btn-dark">View</a>
-                  
-                </div>
-            </div> -->
-        </div>
+                        <li><strong>User-Friendly Interface:</strong> A clean and intuitive UI/UX design makes it easy for users to navigate through questions. Responsive design ensures compatibility across various devices (desktops, tablets, and smartphones).</li>
+
+                        <li><strong>Scoring System:</strong> Real-time scoring updates as users answer questions. Visual feedback (e.g., color changes, animations) to indicate correct or incorrect answers.</li>
+
+                    </ul>
+            
+            <h2>Technical Implementation</h2>
+            <div class="feature-list">
+                <h3 class="">Front-End:</h3>
+                <ul>
+                <li>JavaScript, HTML, CSS: Core technologies used for structuring, styling, and scripting the quiz.</li>
+                <li>CSS Frameworks: For building a responsive and interactive user interface.</li>
+                </ul>
+                <h3>API Integration:</h3>
+                <ul>
+                <li>Trivia API: Fetches questions, answer options, and correct answers.</li>
+                <li>JavaScript Fetch API or Axios: Used for making HTTP requests to the trivia API.</li>
+                </ul>
+                <div class="buttons mt-3">
+                    <a href="https://github.com/kuma0204/mtm6302-capstone-kuma0204.git" target="_blank" class="btn btn-primary btn-custom">Live Site</a>
+                    <a href="https://github.com/kuma0204/mtm6302-capstone-kuma0204.git" target="_blank" class="btn btn-secondary btn-custom">Code</a>
+                  </div>
+            </div>
+            </div>
+        </div> 
                 <br>
         <div class="text-center p-2">
-            <a href="#projects" class="skip bg-light text-dark text-decoration-none p-2">Back to top<i class="fa-solid fa-arrow-up"></i></a>
+            <a href="Webdev.html" class="skip bg-light text-dark text-decoration-none p-2">Back<i class="fa-solid fa-arrow-up"></i></a>
         </div>
 
         <footer class="text-center text-white bg-warning">

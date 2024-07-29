@@ -1,5 +1,5 @@
 .bg-primary{
-    background-image: linear-gradient( #b2c7e8,#703D57);
+    background-image: linear-gradient( #a3b5d3,#9479d8);
     height: auto;
     width: auto;
 }
@@ -14,6 +14,10 @@
 .text-info{
     color: #532d41 !important;
 }
+.bg-green{
+	background-color: rgba(193, 151, 198, 0.2) !important;
+
+}
 .bg-warning{
     background-color:#f1f1f1 !important;
 }
@@ -24,13 +28,111 @@
 body{
     font-family: 'Rubik', sans-serif !important;
 }
+main{
+	padding: 20px 20px 20px;
+}
 h2{
     font-family: 'Monomaniac One', sans-serif !important;
 }
 h1{
     font-family: 'Grenze Gotisch', cursive !important;
 }
+.form-container{
+	width: 80%;;
+}
+.card{
+	margin-left: 50px;
+	align-items: center;
+	background-color: transparent;
+	border: rgb(149, 116, 182) 0.8px solid;
+}
+.cards{
+	background-color: rgb(255, 255, 255);
+
+}
+
+.img-fluid{
+	margin-top: 20px;
+}
+
+.feature-list {
+	margin-bottom: 30px;
+  }
+  .feature-list h3 {
+	margin-top: 20px;
+	font-size: 1.5rem;
+	font-weight: bold;
+  }
+  .feature-list ul {
+	list-style-type: disc;
+	margin-left: 20px;
+  }
+  .feature-list ul li {
+	margin-bottom: 10px;
+  }
+  .custom-card {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+  }
+  .custom-card img {
+	max-width: 50%;
+	height: 60px;
+	border-radius: 5px;
+  }
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px; /* Adjust the gap as needed */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.list-container .custom-card {
+    padding: 20px; /* Adjust padding as needed */
+    border: 1px solid #ddd;
+}
+
+
+.download-container {
+    grid-column: span 2; /* Makes the download button span across both columns */
+    text-align: center; /* Center align the button */
+}
+.list-container{
+	background-color: #dbd4de;
+	padding: 20px;
+	border-radius: 40px;
+	margin-top: 20px;
+
+}
+.achievements-section{
+	border-radius: 40px;
+}
+
+
+
+
+
 /* animation */
+@keyframes glow {
+	0% {
+		box-shadow: 0 0 5px rgba(126, 54, 214, 0.5);
+	}
+	50% {
+		box-shadow: 0 0 20px rgb(184, 64, 184);
+	}
+	100% {
+		box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+	}
+}
+
+.achievements-section {
+	animation: fadeIn 1s ease-in-out, glow 2s infinite ease-in-out;
+}
+  
 .rotate {
     animation-name: rotate;
     animation-duration: 3s;
@@ -66,7 +168,7 @@ h1{
     animation-iteration-count: infinite;
 
 }
-@keyframes bounce {
+/* @keyframes bounce {
 	0% {
 		animation-timing-function: ease-in;
 		opacity: 1;
@@ -110,7 +212,7 @@ h1{
 		opacity: 1;
 		transform: translateY(0px);
 	}
-}
+} */
 .wobble{
     animation-name: wobble;
     animation-duration: 3s;
@@ -145,4 +247,3 @@ h1{
 		transform: translateX(-6px) rotate(1.2deg);
 	}
 }
-.btn:hover {opacity: 0.6}

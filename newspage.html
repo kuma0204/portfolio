@@ -7,20 +7,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://kit.fontawesome.com/1db2989dc6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Righteous&family=Rubik&display=swap" rel="stylesheet">
   </head>
-  <body class="bg-primary">
-            <nav class="navbar navbar-expand-sm nav-underline" role="navigation">
+  <body class="bg-primary"> 
+        <nav class="navbar navbar-expand-sm nav-underline ">
                 <div class="container-fluid">
-                    <a href="index.html"> <img src="images/logo.png" alt="logo" id="logo" class="rotate"> </a>
+                        <a href="index.html"> <img src="images/logo.png" alt="logo" id="logo" class="rotate"> </a>
 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" role="button">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                    <!-- navigation -->
-                        <div class="navbar-collapse collapse" id="main-nav">
+                            <!-- navigation -->
+                    <div class="navbar-collapse collapse" id="main-nav" role="navigation">
                             <ul class="navbar-nav" role="list">
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Home</a>
@@ -34,56 +35,57 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
-                                
                             </ul>
-                        </div>
+                    </div>
                 </div>
-            </nav>
+        </nav>
             <hr>
-            <main>
-            <h2 class="text-center display-3">About Me</h2>
-                <div class=" container text-center">
-                    <img srcset="images/self-img-221_x_280.png 576w,
-                                images/self-img-340_x_429.png 768w,
-                                images/self-img-640_x_809.png 1200w"
-                            sizes="100vw" 
-                            aria-details="banner" alt="self"
-                            src="images/self-img.jpg " class="img-fluid rounded-circle" width="250" role="img">
-                </div>
-                <p class="text-center">
-                    I'm a developer and Designer bases in Ottawa.I have experience in creating intuitive and aesthetically pleasing designs. Skilled in HTML, CSS, JavaScript, and design tools such as Adobe XD, Figma, and Sketch. Seeking to leverage my skills and creativity to contribute to innovative web design projects.
-                </p>
-                <div class="grid">
-                    <div class="list-container ">
-                    <h3 class=" text-black">Skills</h3>
-                    <ul class="list fw-bold" role="list" itemscope itemtype="https://schema.org/Person" >
-                        <li>HTML,CSS</li>
-                        <li>Low/High Fidelity Prototyping</li>
-                        <li>WordPress, Drupal</li>
-                        <li>JavaScript,Node.js</li>
-                        <li>C#,Python</li>
-                        <li>Photograpy,Videograpy</li>
-                    </ul>
-                    </div>
-                    <div class="custom-card achievements-section bg-green">
-                        <h2 class="section-title">Achievements</h2>
-                            <ul class="achievements-list">
-                            <li><strong>Dean’s List: </strong>2023 Winter, 2023 Spring, and 2023 Fall Terms</li>
-                            </ul>
-                    </div>
-                    <div id="download">
-                        <a href="images/resume.png" id="download" class="btn btn-primary download-btn " download>Download Resume</a>
-                    </div>
-            </div>
-             </div>
-                <div class="text-center">
-                    <a href="mailto:senukiperera2002@gmail.com" class=" text-decoration-none text-dark text-center fw-bold cursor-pointer "><i class="fa-solid fa-envelope"></i></a>
-                </div>
-                <br>
-            <!-- adds Accessibility schema  -->
-         </main>
-            <footer class="text-center text-white bg-warning " role="contentinfo">
+        <h2 class=" text-center display-3 animate__bounce animate__delay-1s" id="projects">News Blog page</h2>
+            <!-- adds cards -->
+            <br>
+             <div class="container">
+  <div class="image-grid row">
+    <div class="col-md-4 col-sm-6 mb-4">
+      <img src="images/news1.png" alt="Quiz Image 1" width="300" height="300">
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+        <img src="images/news2.png" alt="Quiz Image 1" width="300" height="300">
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4" id="lastimg">
+        <img src="images/news3.png" alt="Quiz Image 1" width="300" height="300">
+    </div>
+  </div>
+            <div class="container">
+                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+                <h2>Features</h2>
+                    <ul class="feature-list">
+                        <li><strong>Dynamic News Feed:</strong> A section showcasing the latest or most popular news articles with eye-catching headlines and featured images.</li>
 
+                        <li><strong>Cross-Device Compatibility:</strong>  Ensured that the blog page is fully responsive, providing an optimal viewing experience across different devices and screen sizes.
+                        </li>
+                    </ul>
+            
+            <h2>Technologies Used:</h2>
+            <div class="feature-list">
+                
+                <ul>
+                <li>HTML/CSS</li>
+                <li>javascript</li>
+                <li>CSS Frameworks</li>
+
+                </ul>
+                <div class="buttons mt-3">
+                    <a href=" https://kuma0204.github.io/-mtm6407-frontend-mentor-kuma0204/" target="_blank" class="btn btn-primary btn-custom">Live Site</a>
+            </div>
+            </div>
+        </div> 
+                <br>
+        <div class="text-center p-2">
+            <a href="Webdev.html" class="skip bg-light text-dark text-decoration-none p-2">Back<i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+
+        <footer class="text-center text-white bg-warning">
+                <!-- Grid container -->
                 <div class="container pt-4">
                   <!-- Section: Social media -->
                   <section class="mb-4">
@@ -95,7 +97,6 @@
                       data-mdb-ripple-color="dark"
                       ><i class="fab fa-twitter"></i
                     ></a>
-              
                     <!-- Linkedin -->
                     <a
                       class="btn btn-link btn-floating btn-lg text-dark m-1"
@@ -115,19 +116,13 @@
                   </section>
                   <!-- Section: Social media -->
                 </div>
-              
+               
                 <!-- Copyright -->
-                <div class="text-center text-dark  bg-dark">
+                <div class="text-center text-dark p-3  bg-dark">
                     &copy;2023 Copyright:SK
-                  <a class="text-dark"></a>
                 </div>
                 <!-- Copyright -->
-            </footer>
-
-
-
-
-
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
         </body>
       </html>
